@@ -1,4 +1,4 @@
-/*
+
 	
 
 
@@ -35,10 +35,7 @@ var settings = {
 		xsmall:	'(max-width: 480px)'
 	});
 
-	/**
-	 * Applies parallax scrolling to an element's background image.
-	 * @return {jQuery} jQuery object.
-	 */
+	
 	$.fn._parallax = (skel.vars.browser == 'ie' || skel.vars.mobile) ? function() { return $(this) } : function(intensity) {
 
 		var	$window = $(window),
@@ -110,10 +107,7 @@ var settings = {
 
 	};
 
-	/**
-	 * Custom banner slider for Slate.
-	 * @return {jQuery} jQuery object.
-	 */
+	
 	$.fn._slider = function(options) {
 
 		var	$window = $(window),
